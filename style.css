@@ -1,0 +1,148 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+main {
+  padding: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#featured-article {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('img/featured-bg.png') no-repeat center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+  padding: 48px;
+  text-align: left;
+}
+
+#featured-article h2 {
+  font-size: 42px;
+}
+
+#featured-article .metadata {
+  color: #fff;
+}
+
+#featured-article a {
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+#featured-article a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-size: 28px;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+.metadata {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #777;
+}
+
+.metadata li {
+  margin-right: 4px;
+  display: inline-block;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#more-articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+#more-articles li {
+  margin-bottom: 8px;
+}
+
+.author-img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.article img {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  #featured-article h2 {
+    font-size: 36px;
+  }
+
+  p {
+    margin-bottom: 12px;
+  }
+}
